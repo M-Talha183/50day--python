@@ -6,6 +6,7 @@
 # when a user enters the time 
 # in hours:minutes:seconds """
 # '02:00:01'
+print("hello world ")
 wishingTime = str(input('Enter the Time in Hours minute and sec make sure we are in 24 Hours system "00 : 00 : 00" '))
 if(wishingTime > "24 : 00 : 00"):
     print("please enter valid time  ")
