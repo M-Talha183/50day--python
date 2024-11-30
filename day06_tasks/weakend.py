@@ -1,6 +1,10 @@
 # Task 1: Consider a dictionary below
-# students = { "student1": {"name": "Alice","age": 20,"grades": {"math": 85, "science": 90}},
-# "student2": {"name": "Bob","age": 22,"grades": {"math": 78, "science": 88 } } }
+# # students = {
+# 'student1': {'name': 'Alice', 'age': 20, 'grades': {'math': 85, 'science': 90}},
+# 'student2': {'name': 'Bob', 'age': 22, 'grades': {'math': 78, 'science': 95}},
+# 'student3': {'name': 'Charlie', 'age': 21, 'grades': {'math': 92, 'science': 89}}
+# }
+
 # Qs: 1 Delete Charlie’s Record
 # Qs:2 Delete Bob’s Math Grade
 students = { "student1": {"name": "Alice","age": 20,"grades": {"math": 85, "science": 90}},
