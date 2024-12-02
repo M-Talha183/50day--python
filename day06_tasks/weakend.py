@@ -6,14 +6,14 @@
 # }
 
 # Qs: 1 Delete Charlie’s Record
-# Qs:2 Delete Bob’s Math Grade
-students = { "student1": {"name": "Alice","age": 20,"grades": {"math": 85, "science": 90}},
-"student2": {"name": "Bob","age": 22,"grades": {"math": 78, "science": 88 } } }
+students = {
+'student1': {'name': 'Alice', 'age': 20, 'grades': {'math': 85, 'science': 90}},
+'student2': {'name': 'Bob', 'age': 22, 'grades': {'math': 78, 'science': 95}},
+'student3': {'name': 'Charlie', 'age': 21, 'grades': {'math': 92, 'science': 89}}
+}
 
-# their is no charlies is this is typing mistake is no so they give key error
-del students["student1"]["chariles"]  
-# remove the (charlie record) means here student 1 record if they need here 
-#del students["student1"]   
+
+
 del students["student2"]["grades"]["math"] # remove the bob meth record 
 print(students)
 
@@ -53,7 +53,7 @@ students = {
 stud1Average = ((students ["Alice"]["math"] + students ["Alice"]["science"]) / 2 ) 
 stud2Average = ((students ["Bob"]["math"] + students ["Bob"]["science"]) / 2 ) 
 stud3Average = ((students ["Charlie"]["math"] + students ["Charlie"]["science"]) / 2 ) 
-print
+
 # check the higrst AAverage student 
 if(stud1Average > stud2Average and stud1Average > stud3Average):
     print( "Alice Has Higest Average Grade",stud1Average)
@@ -74,12 +74,12 @@ else:
 print("welcome To Ghalib Library")
 
 libBooks = {
-     100 : { "details" : {"title" : "The Science","author": "Talha","availability" : True }},
-     101 : { "details" : {"title" : "The Math","author": "Zain","availability" : True }},
-     102 : { "details" : {"title" : "The Chemist","author": "Waqar","availability" : True }},
-     103 : { "details" : {"title" : "TheKarachi","author": "Salman","availability" : True }},
-     104 : { "details" : {"title" : "The Peshawar","author": "Abdullah","availability" : True }},
-     105 : { "details" : {"title" : "The Lahore","author": "Ibrar","availability" : True }}
+     100 : { "details" : {"title" : "The Science","author": "Talha","availability" : "True" }},
+     101 : { "details" : {"title" : "The Math","author": "Zain","availability" : "True" }},
+     102 : { "details" : {"title" : "The Chemist","author": "Waqar","availability" : "True" }},
+     103 : { "details" : {"title" : "TheKarachi","author": "Salman","availability" : "True" }},
+     104 : { "details" : {"title" : "The Peshawar","author": "Abdullah","availability" : "True" }},
+     105 : { "details" : {"title" : "The Lahore","author": "Ibrar","availability" : "True" }}
 
 }
 addBook = (input("If you want to add book in liberay write true otherwise false : ").lower())
