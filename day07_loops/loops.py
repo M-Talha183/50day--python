@@ -66,15 +66,22 @@
 #     print (num ,"x", i, "=", num*i)
 
 # understanding the break statement 
-num = 2
-for i in range(1,11):
-    if ( i == 3):
-        break
-    print (num ,"x", i, "=", num*i)
+# num = 2
+# for i in range(1,11):
+#     if ( i == 3):
+#         break
+#     print (num ,"x", i, "=", num*i)
 
 # understanding the continue statement 
-num = 2
-for i in range(1,11):
-    if ( i == 3):
-        continue
-    print (num ,"x", i, "=", num*i)
+# num = 2
+# for i in range(1,11):
+#     if ( i == 3):
+#         continue
+#     print (num ,"x", i, "=", num*i)
+
+
+my_list1 = ["1","2"]
+my_list2 = ["4","5"]
+for i in my_list1:
+     for j in my_list2 :
+        print(i,j)
