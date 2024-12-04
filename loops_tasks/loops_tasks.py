@@ -84,19 +84,38 @@
 #              print("this is not prime number ")
                  
                  
-number = [12,75,150,180,154,525,50]
+# number = [12,75,150,180,154,525,50]
 
-for i in number:
-    if(i % 5 ==0):
-        print(i)
-        if(i > 150):
-           continue
-           print("After greater then 150")
-           print(i)
-        if(i>500):
-              break
-              print("After greater then 500")
-              print(i)
-          
+# for i in number:
+#     if(i % 5 ==0):
+#         print(i)
+#         if(i > 150):
+#            continue
+#            print("After greater then 150")
+#            print(i)
+#         if(i>500):
+#               break
+#               print("After greater then 500")
+#               print(i)
+# program to calculate the length of string provide input by user (without using
+# len).
+# 13. Write a Python program to print the number of vowels and consonant in your full
+# name.
+# 14. Write a Python program that generates list of values. The values must be taken from
+# user as input.
+# 15. Write a Python program to copy elements from one list to another.
+# 16. Write a python program to select the maximum value from list (without using
+# maximum function).
+# 17. Write a Python program to count the number of even and odd numbers from a series
+# of numbers. Sample numbers: numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# 18. Find the sum of squares of each element of the list using for loop. numbers = [3, 5, 23,
+# 6, 5, 1, 2, 9, 8
+# 19. From given list: gadgets = [“Mobile”, “Laptop”, 100, “Camera”, 310.28, “Speakers”,
+# 27.00, “Television”, 1000, “Laptop Case”, “Camera Lens”]
+# a) Create separate lists of strings and numbers.
+# b) Sort the strings list in ascending order
+# c) Sort the strings list in descending order
+# d) Sort the number list from lowest to highest
+# e) Sort the number list from highest to lowest
              
           
