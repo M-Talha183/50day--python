@@ -94,13 +94,13 @@
 # print(greatest)
 
 
-# userNum = str(input("Enter The Word  : "))
+userNum = str(input("Enter The Word  : "))
 
-# i = len(userNum) -1
-# j=0
-# print ("Reversed The List")
-# while( i >= j):
-#     print(userNum[i])
-# #     i-=1
+i = len(userNum) -1
+j=0
+print ("Reversed The List")
+while( i >= j):
+    print(userNum[i])
+    i-=1
 
 
