@@ -19,3 +19,30 @@
 #     cemean = a*b
 #     return Gmean , cemean
 # Gmean(5,5)
+
+
+
+
+num1 = float(input("Enter Number : "))
+num2 = float(input("Enter Number : "))
+operator = str(input("Enter operator : "))
+
+
+def myCal (a,b,operator):
+    if(operator == "+" ):
+       mySum = a+b
+       print(mySum)
+    elif(operator == "-" ):
+       mySub = a-b
+       print(mySub)
+    elif(operator == "*" ):
+       myMult = a*b
+       print(myMult)
+    elif(operator == "/" ):
+       myDiv = a/b
+       print(myDiv)
+    else:
+       print("Enter the valid operator")
+
+myCal(num1,num2,operator)
+    
