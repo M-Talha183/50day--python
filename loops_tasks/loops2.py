@@ -1,3 +1,6 @@
+import math
+import random
+
 # # #  write a program to print list in reverse order using loop 
 # userNum = str(input("Enter The Number  : "))
 # myLst1 = []
@@ -94,13 +97,112 @@
 # print(greatest)
 
 
-userNum = str(input("Enter The Word  : "))
+# userNum = str(input("Enter The Word  : "))
 
-i = len(userNum) -1
-j=0
-print ("Reversed The List")
-while( i >= j):
-    print(userNum[i])
-    i-=1
+# i = len(userNum) -1
+# j=0
+# print ("Reversed The List")
+# while( i >= j):
+#     print(userNum[i])
+#     i-=1
 
+
+
+
+# condition = True
+
+# i = 0
+# while(condition):
+#     userNum = int(input("Enter the Number : "))
+#     myNum = random.randint(1,9)
+#     if(userNum == myNum):
+#         print( f'You Guess The Right Number Your Number {userNum} & generate number {myNum} ')
+#         condition =False
+#     else:
+#         print(f'Try again The Generate number is {myNum}')
+
+# mynum = 0
+# myAlpha = 0
+# myVar = str(input("Enter the Data "))
+# for i in myVar:
+#     if (i.isalpha() == True ):
+#         myAlpha +=1
+#     elif(i.isdigit() == True):
+#         mynum += 1
+
+# print(f'letter = {myAlpha}')
+# print(f'letter = {mynum}')
+
+# # 17. Write a Python program to count the number of even and odd numbers from a series  of numbers. Sample numbers: numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+# evenCount = 0
+# oddcount =0
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for i in numbers:
+#     if i % 2 == 0:
+#         evenCount += 1
+#     else:
+#         oddcount += 1
+# print("The Even Count Of the Given List is ",evenCount)
+# print("The Odd Count Of the Given List is ",oddcount)
+
+
+
+# 16. Write a python program to select the maximum value from list (without using  maximum function). 
+# numbers = [3,5,23,6,5,1,2,9,8]
+# greatest = 0
+# for i in numbers:
+#     if i > greatest:
+#         greatest = i
+# print("The Gratest Value Of The Given Series Is ",greatest)
+
+# 15. Write a Python program to copy elements from one list to another. 
+
+# myList = [10,20,30,40,50,60,70,80,90,100]
+# copyOfMyList = []
+# for i in myList :
+#     copyOfMyList.append(i)
+# print("The Copy Of My List is ",copyOfMyList)
+
+# # 14. Write a Python program that generates list of values. The values must be taken from  user as input. 
+
+# userList = input("Enter The List : ").split()
+# myList = []
+# for i in userList:
+#     myList.append(i)
+# print(myList)
+
+# 13. Write a Python program to print the number of vowels and consonant in your full  name. 
+
+# myName = str(input("Enter Your Name : "))
+# vowelsConter = 0
+# consonantCounter = 0
+# for i in myName:
+#     if(i == "a" or i =="A"):
+#         vowelsConter +=1
+#     elif(i == "e" or i == "E"):
+#         vowelsConter += 1
+#     elif(i == "i" or i == "I"):
+#         vowelsConter += 1
+#     elif(i == "o" or i == "O"):
+#         vowelsConter += 1
+#     elif(i == "u" or i == "U"):
+#         vowelsConter += 1
+#     elif(i == " " ):
+#         vowelsConter += 0
+#     else:
+#         consonantCounter += 1
+# print("The vowels in tour name ",vowelsConter)
+# print("The consonant",consonantCounter)
+
+# 12. Write a program to calculate the length of string provide input by user (without using  len). 
+
+
+# userNum = str(input("Enter The Word  : "))
+
+
+wordLength=0
+# print ("Reversed The List")
+# while( i >= j):
+#     print(userNum[i])
+#     i-=1
 

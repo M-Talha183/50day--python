@@ -47,28 +47,28 @@
 #           print(num1)
 
 # print(count)
+
 sum = 0
 li = [3,5,23,6,5,1,2,9,8]
 for i in li:
-    sum += i **2
-print(sum)
-    # sum += sqr
-    # print(sum)
-    # mysum = sum + num
-    # print(mysum)
+    sum += i **2  
+print(li)
+print(f'The sum of Given Series squires is {sum}')
+
+    
 
 
 
-evenCount =0
-oddCount =0
-myseries = [1,2,3,4,5,6,7,8,9]
-for i in myseries:
-    if(i % 2 ==0):
-        evenCount += 1
-    else:
-        oddCount +=1
-print(evenCount)
-print(oddCount)
+# evenCount =0
+# oddCount =0
+# myseries = [1,2,3,4,5,6,7,8,9]
+# for i in myseries:
+#     if(i % 2 ==0):
+#         evenCount += 1
+#     else:
+#         oddCount +=1
+# print(evenCount)
+# print(oddCount)
 
 
 
