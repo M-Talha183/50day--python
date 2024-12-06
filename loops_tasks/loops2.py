@@ -131,7 +131,7 @@ import random
 #         mynum += 1
 
 # print(f'letter = {myAlpha}')
-# print(f'letter = {mynum}')
+# print(f'Numbers  = {mynum}')
 
 # # 17. Write a Python program to count the number of even and odd numbers from a series  of numbers. Sample numbers: numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
 # evenCount = 0
@@ -153,6 +153,7 @@ import random
 # for i in numbers:
 #     if i > greatest:
 #         greatest = i
+# print(numbers)
 # print("The Gratest Value Of The Given Series Is ",greatest)
 
 # 15. Write a Python program to copy elements from one list to another. 
@@ -199,10 +200,13 @@ import random
 
 # userNum = str(input("Enter The Word  : "))
 
+# wordLength=0
 
-wordLength=0
-# print ("Reversed The List")
-# while( i >= j):
-#     print(userNum[i])
-#     i-=1
+# for i in userNum:
+#     if(i == " "):
+#         wordLength += 0
+#     else:
+#         wordLength+=1
+# print("Your Provide String length is ",wordLength)
+
 
