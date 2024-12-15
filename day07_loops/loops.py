@@ -80,8 +80,8 @@
 #     print (num ,"x", i, "=", num*i)
 
 
-my_list1 = ["1","2"]
-my_list2 = ["4","5"]
-for i in my_list1:
-     for j in my_list2 :
-        print(i,j)
+# my_list1 = ["1","2"]
+# my_list2 = ["4","5"]
+# for i in my_list1:
+#      for j in my_list2 :
+#         print(i,j)

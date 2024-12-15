@@ -99,12 +99,45 @@
 #               print(i)
 # 
 
-numbers = [12,75,150,180,145,525,50]
-for i in numbers:
-    if i % 5 == 0:
-        if i >= 500:
-          break
-        print(i)
-        if i > 150:
-            continue
+# numbers = [12,75,150,180,145,525,50]
+# for i in numbers:
+#     if i % 5 == 0:
+#         if i >= 500:
+#           break
+#         print(i)
+#         if i > 150:
+#             continue
         
+
+# gadgets = ["Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00, "Television", 1000,
+#             "Laptop Case", "Camera Lens"]
+# strings_list = []
+# numbers_list = []
+# for item in gadgets:
+#     if isinstance(item, str):  
+#         strings_list.append(item)
+#     elif isinstance(item, (int, float)):  
+#         numbers_list.append(item)
+
+# strings_list_sorted_asc = sorted(strings_list)
+
+
+# strings_list.sort(reverse=True)
+# print("Strings List:", strings_list)
+# print("Numbers List:", numbers_list)
+# print("Sorted Strings in Ascending Order:", strings_list_sorted_asc)
+# print("Sorted Strings in Descending Order:", strings_list)
+
+def sum_of_arithmetic_series(a, d, n):
+
+    return (n / 2) * (2 * a + (n - 1) * d)
+
+
+a = float(input("Enter the first term (a): "))
+d = float(input("Enter the common difference (d): "))
+n = int(input("Enter the number of terms (n): "))
+
+result = sum_of_arithmetic_series(a, d, n)
+
+
+print(f"The sum of the first {n} terms of the arithmetic series is: {result}")

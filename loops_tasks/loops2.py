@@ -1,8 +1,8 @@
 import math
 import random
 
-# # #  write a program to print list in reverse order using loop 
-# userNum = str(input("Enter The Number  : "))
+# #  write a program to print list in reverse order using loop 
+
 # myLst1 = []
 
 # myList = [10,20,30,40,50,60,70,80,90,100]
@@ -28,37 +28,37 @@ import random
 
 #  prime number ******************************************
 
-# Input: Number to check if it's prime and list primes less than it
-# number = int(input("Enter a number: "))
+# # Input: Number to check if it's prime and list primes less than it
+number = int(input("Enter a number: "))
 
-# # Check if the input number is prime
-# is_prime_number = 1  # Assume the number is prime initially (1 means prime, 0 means not prime)
+is_prime_number = 1 
 
-# if number <= 1:
-#     is_prime_number = 0  # Numbers <= 1 are not prime
-# else:
-#     for i in range(2, number):  # Check divisibility up to n - 1
-#         if number % i == 0:
-#             is_prime_number = 0  # Set to 0 if divisible by any number
-#             break  # No need to check further
+if number <= 1:
+  print("Not prime Number")
 
-# # Output if the number is prime or not
-# if is_prime_number == 1:
-#     print(f"{number} is a prime number.")
-# else:
-#     print(f"{number} is not a prime number.")
+else:
+    for i in range(2, number): 
+        if number % i == 0:
+            is_prime_number = 0  
+            break  
 
-# # Find and print all prime numbers less than the input number
-# print(f"Prime numbers less than {number} are:")
 
-# for n in range(2, number):  # Loop through all numbers less than the input number
-#     is_prime = 1  # Assume n is prime initially
-#     for i in range(2, n):  # Check divisibility up to n - 1
-#         if n % i == 0:
-#             is_prime = 0  # Set to 0 if divisible
-#             break
-#     if is_prime == 1:
-#         print(n, end=" ")  # Print the prime number
+if is_prime_number == 1:
+    print(f"{number} is a prime number.")
+else:
+    print(f"{number} is not a prime number.")
+
+
+print(f"Prime numbers less than {number} are:")
+
+for n in range(2, number):  
+    is_prime = 1  
+    for i in range(2, n):  
+        if n % i == 0:
+            is_prime = 0  
+            break
+    if is_prime == 1:
+        print(n)  
 
 # #  Q 7 find the factorial of the number
 # userNum = int(input("Enter The Number : "))
@@ -199,9 +199,7 @@ import random
 
 
 # userNum = str(input("Enter The Word  : "))
-
 # wordLength=0
-
 # for i in userNum:
 #     if(i == " "):
 #         wordLength += 0
@@ -210,3 +208,4 @@ import random
 # print("Your Provide String length is ",wordLength)
 
 
+# 8. Write a program to find the sum of the series up to n terms. 
