@@ -30,16 +30,33 @@
 
 # L= [1,2,3,4,5,6,7,8,9,10]
 # sum = 0
-def febonacci (L):
-    if L == 0 :
-        return 0
-    elif(L== 1):
-        return 1
-    else:
-        return febonacci(L-1) + febonacci(L-2)
+# def febonacci (L):
+#     if L == 0 :
+#         return 0
+#     elif(L== 1):
+#         return 1
+#     else:
+#         return febonacci(L-1) + febonacci(L-2)
 # print(febonacci(10))
 
-for i in range(1,10):
-    print(febonacci(i))
+# for i in range(1,10):
+#     print(febonacci(i))
 
 # print(febonacci(10))
+
+
+
+
+
+
+# N = int(input("Enter The Natural Number : "))
+# def NaturalNumber (L):
+#     if L == 0 :
+#         return 0
+#     elif(L== 1):
+#         return 1
+#     else:
+#         return L + NaturalNumber(L-1)
+
+# print(NaturalNumber(N))
+
