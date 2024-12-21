@@ -69,53 +69,55 @@ import math
 # lib1.displayInfo()
 
 
-class Calculator :
-    reult = 0
-    def __init__ (self, Num1, Num2,angle):
-        self.Num1 = Num1
-        self.Num2 = Num2
-        self.angle = angle
-    def Add (self):
-        self.reult = self.Num1 + self.Num2
-    def sub (self):
-        self.reult = self.Num1 - self.Num2
-    def mul (self):
-        self.reult = self.Num1 * self.Num2
-    def div (self):
-        self.reult = self.Num1 / self.Num2
-    def pow (self):
-        self.reult = self.Num1 ** self.Num2
-    def mySin(self):
-        self.reult = math.sin(self.angle)
-    def myCos(self):
-        self.reult = math.cos(self.angle)
-    def myTan(self):
-        self.reult = math.tan(self.angle) * (3.142/ 180)
-    def displayInfo(self):
-        print(f'{self.reult}')
+# class Calculator :
+#     reult = 0
+#     def __init__ (self, Num1, Num2,angle):
+#         self.Num1 = Num1
+#         self.Num2 = Num2
+#         self.angle = angle
+#     def Add (self):
+#         self.reult = self.Num1 + self.Num2
+#     def sub (self):
+#         self.reult = self.Num1 - self.Num2
+#     def mul (self):
+#         self.reult = self.Num1 * self.Num2
+#     def div (self):
+#         self.reult = self.Num1 / self.Num2
+#     def pow (self):
+#         self.reult = self.Num1 ** self.Num2
+#     def mySin(self):
+#         self.reult = math.sin(self.angle)
+#     def myCos(self):
+#         self.reult = math.cos(self.angle)
+#     def myTan(self):
+#         self.reult = math.tan(self.angle) * (3.142/ 180)
+#     def displayInfo(self):
+#         print(f'{self.reult}')
 
-userNum1 = float(input("Enter the 1 Number "))
-userNum2 = float(input("Enter the 2 Number "))
-userNum3 = float(input("Enter the angle  "))
+# userNum1 = float(input("Enter the 1 Number "))
+# userNum2 = float(input("Enter the 2 Number "))
+# userNum3 = float(input("Enter the angle  "))
 
-myCal = Calculator(userNum1,userNum2,userNum3)
+# myCal = Calculator(userNum1,userNum2,userNum3)
 
-userOperation = (input("Enter the operatopr : "))
-if userOperation == "+":
-    myCal.Add()
-if userOperation == "-":
-    myCal.sub()
-if userOperation == "*":
-    myCal.__module__()
-if userOperation == "/":
-    myCal.div()
-if userOperation == "**":
-    myCal.pow()
-if userOperation == "sin":
-    myCal.mySin()
-if userOperation == "cos":
-    myCal.myCos()
-if userOperation == "tan":
-    myCal.myTan()
+# userOperation = (input("Enter the operatopr : "))
+# if userOperation == "+":
+#     myCal.Add()
+# if userOperation == "-":
+#     myCal.sub()
+# if userOperation == "*":
+#     myCal.__module__()
+# if userOperation == "/":
+#     myCal.div()
+# if userOperation == "**":
+#     myCal.pow()
+# if userOperation == "sin":
+#     myCal.mySin()
+# if userOperation == "cos":
+#     myCal.myCos()
+# if userOperation == "tan":
+#     myCal.myTan()
 
-myCal.displayInfo()
+# myCal.displayInfo()
+
+
