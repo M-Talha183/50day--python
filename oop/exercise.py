@@ -1,14 +1,16 @@
 class person :
-    def __init__(self,name,salary,age,company):
-        self.name= name
-        self.salary= salary
-        self.age = age
-        self.company= company
+    @classmethod
+    def splittting_input(cls,talha):
+        myRes=talha.split("$")
+        cls.name = myRes[0]
+        cls.salary=int(myRes[1])
+        cls.age=int(myRes[2])
+        cls.company=myRes[3]
+        print
     def info(self):
-        print(f'Name : {self.name} Salary : {self.salary} Age: {self.age} company : {self.company}')
+        print(f'Name    : {self.name}\nSalary  : {self.salary}\nAge     : {self.age}\ncompany : {self.company}')
 
-talha = "Ali 20000 27 Google"
-myRes=talha.split()
-print(myRes[0])
-p = person(name = myRes[0],salary=int(myRes[1]),age=int(myRes[2]),company=myRes[3])
+
+p = person()
+p.splittting_input("Talha$20000$28$google")
 p.info()
