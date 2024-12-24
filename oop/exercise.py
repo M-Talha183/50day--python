@@ -53,17 +53,17 @@
 # myObj.showInfo()
 
 #  ******************************************************overriding *********************************************
-class Parent :
-    def show_name(self):
+# class Parent :
+#     def show_name(self):
         
-        print(self.name)
-class Child(Parent):
-    def show_name(self):
-        print(self.name)
+#         print(self.name)
+# class Child(Parent):
+#     def show_name(self):
+#         print(self.name)
 
-myObj = Child()
-myObj.name = "Talha"
-myObj.show_name()
+# myObj = Child()
+# myObj.name = "Talha"
+# myObj.show_name()
 
 # obj = Parent()
 # obj.name="Talha"
@@ -72,6 +72,19 @@ myObj.show_name()
 # obj1= Child()
 # obj1.name = "XYZ"
 # obj1.show_name("Xyz")
+
+# *********************************************************************# Example 2 
+# class Parent :
+#     def show_name (self):
+#         print(self.name)
+# class Child(Parent):
+#     def show_name(self):
+#         print(self.name)
+#         print("I am Child Class ")
+
+# obj = Child()
+# obj.name = "Talha"
+# obj.show_name()
 #  ****************************************************** Super KeyWord ******************************************
 
 # class Parent :
@@ -86,3 +99,20 @@ myObj.show_name()
 # obj1 = Child()
 # obj1.name = "xyz"
 # obj1.info()
+
+#  **************************************** Suppper Key Word on Constructor 
+
+class Parent :
+    def __init__(self,name,id):
+        self.name = name 
+        self.id = id 
+class Child (Parent):
+    def __init__(self, name, id , occ,company):
+        super().__init__(name, id)
+        self.occ = occ
+        self.company = company
+    def display (self):
+        print(f'Name : {self.name}\nID : {self.id}\nOCCupation: {self.occ}\nCompany{self.company}')
+
+obj = Child("Talha", 183,"Developer", "Facebook")
+obj.display()
