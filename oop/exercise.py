@@ -102,17 +102,45 @@
 
 #  **************************************** Suppper Key Word on Constructor 
 
-class Parent :
-    def __init__(self,name,id):
-        self.name = name 
-        self.id = id 
-class Child (Parent):
-    def __init__(self, name, id , occ,company):
-        super().__init__(name, id)
-        self.occ = occ
-        self.company = company
-    def display (self):
-        print(f'Name : {self.name}\nID : {self.id}\nOCCupation: {self.occ}\nCompany{self.company}')
+# class Parent :
+#     def __init__(self,name,id):
+#         self.name = name 
+#         self.id = id 
+# class Child (Parent):
+#     def __init__(self, name, id , occ,company):
+#         super().__init__(name, id)
+#         self.occ = occ
+#         self.company = company
+#     def display (self):
+#         print(f'Name : {self.name}\nID : {self.id}\nOCCupation: {self.occ}\nCompany:{self.company}')
 
-obj = Child("Talha", 183,"Developer", "Facebook")
-obj.display()
+# obj = Child("Talha", 183,"Developer", "Facebook")
+# obj.display()
+
+
+#  -------> Public Attribute  ( Accesss Inside The Class)
+#  -------> Private Attribute( use @@ And Cannnot Acces Inside The Class )
+#  -------> Protected Attribute (@ Only Access In Sub Classes )
+
+#  Public 
+# class Person :
+#     def __init__(self,id):
+#         self.id = id 
+# obj = Person(12)
+# print(obj.id)   # Attribute is publicly Accessable 
+
+#  Protected modifiers
+class Person :
+    def __init__(self,id):
+        self._id = id 
+obj = Person(12)
+print(obj._id)   # Attribute is Accessable it is ethicaticaly wrong
+
+#  Privates  modifiers
+"""Private Modifiers """
+class Person :
+    def __init__(self,id):
+        self.__id = id 
+obj = Person(12)
+print(obj.__id)   # Attribute is Accessable it is ethicaticaly wrong
+        
