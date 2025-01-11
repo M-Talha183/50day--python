@@ -92,7 +92,7 @@
 #     with open(file_path , 'r') as myText: 
 #         data = myText.readline()
 #         for i in data:
-#             print(i , end= "")  
+#             print(i,end="" )  
 # file_path = input("Enter The File Path : ")
 # myReadFiles(file_path)    # out put  My Name is Muhammad Talha Makesure that time data will not lose  
 #  ******************************************************* redlines ******************************
@@ -121,13 +121,29 @@
 #     myText.seek(6)
 #     print(myText.read())
 
-file = open('myText.txt', 'r')
+# file = open('myText.txt', 'r')
 
-if not file.closed:
-    print("The file is open.")
+# if not file.closed:
+#     print("The file is open.")
 
-# file.close()
+# # file.close()
 
-# Check if the file is closed
-if file.close:
-    print("The file is closed.")
+# # Check if the file is closed
+# if file.close:
+#     print("The file is closed.")
+
+
+
+# def myFile (fileName,text):
+#     with open(fileName,"w") as file:
+#          file.write(text)
+#          read = file.readline()
+#          return read
+# mycontent = "my Name is talha and i am trying to file handling"
+# print(myFile("example2.txt",mycontent))
+
+def myFun (files):
+    longes = 0
+    with open(files,"a") as  file :
+       return file.write("kdjshfafdjknbvdsbvnsbvsdnbdhjwkfbwej")
+myFun("abc.txt")

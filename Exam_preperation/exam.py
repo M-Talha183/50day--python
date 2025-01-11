@@ -134,6 +134,3 @@
 
 # # Example usage
 # print(my_num("Talha"))  # Output: 5
-
-def myNat():
-    p
