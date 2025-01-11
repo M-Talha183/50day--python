@@ -65,15 +65,22 @@
 # #     print(my[i])
 # #     i += 1
 
-mySet1 = {2,3,4,5,6,7,8}
-mySet2 = {2,3,4,5,6,7,8}
-print(mySet1 | mySet2) # unoin
-print(mySet1.difference_update(mySet2))
+# mySet1 = {2,3,4,5,6,7,8}
+# mySet2 = {2,3,4,5,6,7,8}
+# print(mySet1 | mySet2) # unoin
+# print(mySet1.difference_update(mySet2))
 
-print(mySet1 & mySet2) # intrection
-print(mySet1 ^ mySet2) # symentric difference
-print(mySet1 - mySet2) #  difference 
-print(mySet1.union(mySet2))
-print(mySet1.intersection(mySet2))
-print(mySet1.difference(mySet2))
-# print(mySet1.)
+# print(mySet1 & mySet2) # intrection
+# print(mySet1 ^ mySet2) # symentric difference
+# print(mySet1 - mySet2) #  difference 
+# print(mySet1.union(mySet2))
+# print(mySet1.intersection(mySet2))
+# print(mySet1.difference(mySet2))
+# # print(mySet1.)
+try:
+    def myFun(x, y):
+        return x / y
+
+    print(myFun(2, 0))  # This will raise a ZeroDivisionError
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
