@@ -35,7 +35,3 @@ print(a.add(2 , 4))  #output = 6
 print(Addition.add(a))
 
 
-
-
-
-
