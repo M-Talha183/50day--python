@@ -1,0 +1,217 @@
+
+
+Programming Fundamentals and Python
+Computer Programming  
+▪ The act of writing program which a computer can  understand and take appropriate action, is known  as computer programming. 
+▪ Generally, it is a common set of sequenced  instructions which defines specific tasks.  ▪ There are a large number of high level languages,  some of them are BASIC, C, C++, Java, Python,  PHP, Pascal, Perl, Ruby, FORTRAN, and Visual  Basic etc.  
+▪ These all comes under high level programming,  which is then translated into assembly language to  machine language, to be implemented on  hardware and fetch output. 
+Lecture 01  
+Programming Fundamentals and Python 
+
+Lecture 01  
+Programming Fundamentals and Python 
+Python  
+
+▪ Python is an open-source (free) programming language that is used in web programming,  data science, artificial intelligence, and many scientific applications. 
+▪ It is an interpreted, object oriented, high level programming language with dynamic  semantics. 
+▪ It is very attractive for Rapid Application development. 
+▪ Python supports modules and packages, which encourages program modularity and code  reuse. The Python interpreter and the extensive standard library are available in source or  binary form without charge for all major platforms, and can be freely distributed.
+
+
+Python  
+Programs With Python IDLE 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Python Integrated Development and Learning Environment allows you to enter, edit,  save, retrieve, compile, link, and run a python program. 
+For Installation 
+https://www.python.org/downloads/
+
+
+Why Python ? 
+Programs With Python IDLE 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). ▪ Python has a simple syntax similar to the English language. 
+▪ Python has syntax that allows developers to write programs with fewer lines than some  other programming languages. 
+▪ Python runs on an interpreter system, meaning that code can be executed as soon as it is  written. This means that prototyping can be very quick. 
+▪ Python can be treated in a procedural way, an object-oriented way or a functional way.
+Lecture 01  
+Programming Fundamentals and Python 
+• Python was designed for readability, and has some similarities to the English language  with influence from mathematics. 
+• Python uses new lines to complete a command, as opposed to other programming  languages which often use semicolons or parentheses. 
+• Python relies on indentation, using whitespace, to define scope; such as the scope of  loops, functions and classes. Other programming languages often use curly-brackets for  this purpose.
+
+
+Approach-1 Hello Python 
+Lecture 01  
+Programming Fundamentals and Python 
+
+After installation of Python, follow following steps to develop and execute python program ▪ Create a python script file by replacing the extension of text file (.txt) with (.py). ▪ Right click on the file (say first.py) and select ―Edit with IDLE. 
+▪ Type the program and click on ―run > run module ―or press F5 to execute the  program. The window (on the next page) will appear showing the output of program. ▪ Although, simple programs can easily carried in ‘IDLE shell’, as shown below. 
+
+
+Approach-2 Hello world Program 
+Lecture 01  
+Programming Fundamentals and Python 
+
+After installation of Python, perform the following steps to develop and execute the python  program. 
+▪ Create a python script file by replacing the extension of text file (.txt) with (.py). ▪ Open command prompt by clicking on command prompt from the start> All Programs  > Accessories
+
+Lecture 01  
+Programming Fundamentals and Python 
+▪ Change the path of DOS to the folder containing First.py with ‘cd’ command 
+▪ Run the script by using command ‗python First.py‘
+
+
+IDLE tabs and function 
+RUN Menu 
+1. Python Shell  
+▪ Open or wake up the Python Shell window.  2. Check Module  
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Check the syntax of the module currently open in the Editor window. If the module has not  been saved, IDLE will either prompt the user to save or auto-save. 
+3. Run Module  
+▪ Do Check Module (above). If no error, restart the shell to clean the environment then  execute the module. Output is displayed in the Shell window. Note that output requires use  of print or write. 
+
+
+IDLE tabs and function 
+Option Menu 
+1. Configure IDLE  
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Open a configuration dialog and change preferences for the following: Fonts,  indentation, key bindings, text color themes, startup windows and size, additional help  sources, and extensions. To use a new built-in color theme (IDLE Dark) with older  IDLEs, save it as a new custom theme.  
+2. Code Context (Editor Window only)  
+▪ Open a pane at the top of the edit window which shows the block context of the code  which has scrolled above the top of the window.
+
+
+Data Types 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ There are different notions, symbols and parenthesis style to assign different data  type:
+
+Lecture 01  
+Programming Fundamentals and Python
+
+
+How to set a Data Type 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ There are different notions, symbols and parenthesis style to assign different data  type:
+
+Lecture 01  
+Programming Fundamentals and Python
+
+Lecture 01  
+Programming Fundamentals and Python 
+Syntax 
+Python syntax can be executed directly in command line.
+
+
+
+Indentation 
+▪ Indentation refers to the spaces at the beginning of a code line. 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Where in other programming languages the indentation in code is for readability only, the  indentation in Python is very important. 
+▪ Python uses indentation to indicate a block of code. 
+▪ Where in other programming languages the indentation in code is for readability only, the  indentation in Python is very important. 
+▪ Python will show error if you 
+miss the indent.
+
+Lecture 01  
+Programming Fundamentals and Python 
+▪ The number of spaces is up to you as a programmer, the most common use is  four, but it has to be at least one. 
+
+▪ You have to use the same number of spaces in the same block of code, otherwise  Python will give you an error:
+
+
+
+Python Variables 
+▪ Python has no command for declaring a variable. ▪ A variable is created the moment you first assign a value to it. 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Variables do not need to be declared with any particular type, and can even change  type after they have been set.
+
+
+Casting 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ The method to declare any variable as any particular type, is called casting. ▪ The type can also be changed after it has been set. 
+Get The Type 
+▪ The type can be seen by using 
+
+
+Casting Case Sensitive 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ Python is case sensitive; you can declare a variable with ‘x’ and a different variable  with ‘X’. 
+Quotes 
+▪ Single and double quotes are same.  
+▪ It is usually used to declare string variables.
+
+
+Multiword variable name 
+Lecture 01  
+Programming Fundamentals and Python 
+
+There are several techniques you can use to make them more readable: Camel case 
+myVariableName = “Johnny” 
+Pascal case 
+MyVariableName = “Johnny” 
+Snake Case 
+my_variable_name = “Johnny”
+
+
+Values and Variables 
+Assigning many values to multiple variable ▪ Python allows us to assign multiple variable in a line. ▪ Including, print option assess to print multiple variable. 
+One value to multiple variable 
+▪ One value can be assigned to multiple variables.
+Lecture 01  
+Programming Fundamentals and Python 
+
+
+Collection Unpack 
+▪ If you have a collection of  values (i.e. list or tuple),  
+python allows to to extract  values into variables. 
+Output Differences  
+• Different print command  makes different output, see  the example
+Lecture 01  
+Programming Fundamentals and Python 
+
+Output 
+Print ( ) Fumction 
+▪ Print function allows you to add the same type of input. 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ It shows error when we try to add or subtract different data type.
+
+Python Data Types 
+Lecture 01  
+Programming Fundamentals and Python 
+
+▪ In computer programming language, data type is an important concept. ▪ Different data types can be stored in variable. 
+▪ Built-in data types in python are: 
+Text Type: str 
+Numeric Types: int, float, complex 
+Sequence Types: list, tuple, range 
+Mapping Type: dict 
+Set Types: set, frozenset 
+Boolean Type: bool 
+Binary Types: bytes, bytearray, memoryview 
+None Type: NoneType
+
+CS 115 - Lecture 01  
+The while Loop
+Thank you! 
+
