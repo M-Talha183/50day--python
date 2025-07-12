@@ -26,10 +26,10 @@ second_fruit = fruits[1]
 last_index =len(fruits) - 1
 # last_fruit = fruits[las_index]
 
-Slicing tuples
-We can slice out a sub-tuple by specifying a range of indexes where to start and where to end in the tuple, the return value will be a new tuple with the specified items.
+# Slicing tuples
+# We can slice out a sub-tuple by specifying a range of indexes where to start and where to end in the tuple, the return value will be a new tuple with the specified items.
 
-Range of Positive Indexes
+# Range of Positive Indexes/
 
 # Syntax
 tpl = ('item1', 'item2', 'item3','item4')
@@ -41,7 +41,7 @@ all_fruits = fruits[0:4]    # all items
 all_fruits= fruits[0:]      # all items
 orange_mango = fruits[1:3]  # doesn't include item at index 3
 orange_to_the_rest = fruits[1:]
-Range of Negative Indexes
+# Range of Negative Indexes
 
 # Syntax
 tpl = ('item1', 'item2', 'item3','item4')
@@ -51,8 +51,8 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 all_fruits = fruits[-4:]    # all items
 orange_mango = fruits[-3:-1]  # doesn't include item at index 3
 orange_to_the_rest = fruits[-3:]
-Changing Tuples to Lists
-We can change tuples to lists and lists to tuples. Tuple is immutable if we want to modify a tuple we should change it to a list.
+# Changing Tuples to Lists
+# We can change tuples to lists and lists to tuples. Tuple is immutable if we want to modify a tuple we should change it to a list.
 
 # Syntax
 tpl = ('item1', 'item2', 'item3','item4')
@@ -63,8 +63,8 @@ fruits[0] = 'apple'
 print(fruits)     # ['apple', 'orange', 'mango', 'lemon']
 fruits = tuple(fruits)
 print(fruits)     # ('apple', 'orange', 'mango', 'lemon')
-Checking an Item in a Tuple
-We can check if an item exists or not in a tuple using in, it returns a boolean.
+# Checking an Item in a Tuple
+# We can check if an item exists or not in a tuple using in, it returns a boolean.
 
 # Syntax
 tpl = ('item1', 'item2', 'item3','item4')
