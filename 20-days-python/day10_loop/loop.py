@@ -88,13 +88,9 @@ for i in range(0,101):
 # Exercises: Level 2
 # Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 # The sum of all numbers is 5050.
+sum = 0
+for i in range(0,101):
+    sum += i
+print("\n",sum)
 # Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
-# The sum of all evens is 2550. And the sum of all odds is 2500.
-# Exercises: Level 3
-# Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
-# This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
-# Go to the data folder and use the countries_data.py file.
-# What are the total number of languages in the data
-# Find the ten most spoken languages from the data
-# Find the 10 most populated countries in the world
