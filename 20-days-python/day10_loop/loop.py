@@ -98,8 +98,3 @@ for i in range(0,101):
 # What are the total number of languages in the data
 # Find the ten most spoken languages from the data
 # Find the 10 most populated countries in the world
-# 🎉 CONGRATULATIONS ! 🎉
-
-# << Day 9 | Day 11 >>
-
-# 3
