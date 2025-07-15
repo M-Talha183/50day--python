@@ -6,9 +6,29 @@ def sum(a,b):
 
 print(sum(5,6))
 # Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
-# Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback.
+# Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. 
+# Check if all the list items are number types. If not do give a reasonable feedback.
+def add_all_nums(*args):
+    sum = 0
+    for i in args:
+        if not isinstance(i,(int,float)):
+            return f"Error: '{i}' is not a number. Please provide only numeric values."
+        sum += i   
+    return sum
+print(add_all_nums(2,5,6))
 # Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, convert_celsius_to-fahrenheit.
 # Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+
+def check_seasons(month):
+    if month == "march" or month == "april" or month == "may":
+        return "spring"
+    if month == "june" or month == "july" or month == "augest":
+        return "summmer"
+    if month == "september" or month == "october" or month == "november":
+        return "fall"
+    if month == "december" or month == "january" or month == "feburary":
+        return "winter"
+print(check_seasons("september"))
 # Write a function called calculate_slope which return the slope of a linear equation
 # Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, solve_quadratic_eqn.
 # Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
