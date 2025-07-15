@@ -1,5 +1,10 @@
 # Exercises: Level 1
 # Declare a function add_two_numbers. It takes two parameters and it returns a sum.
+
+def sum(a,b):
+    return a+b
+
+print(sum(5,6))
 # Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
 # Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback.
 # Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, convert_celsius_to-fahrenheit.
