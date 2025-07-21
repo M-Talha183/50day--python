@@ -41,3 +41,8 @@
 # output
 # ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
 # Write a lambda function which can solve a slope or y-intercept of linear functions.
+
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+
+filter1 = [i for i in numbers if i < 0 or i == 0]
+print(filter1)
