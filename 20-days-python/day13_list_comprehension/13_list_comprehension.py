@@ -27,6 +27,14 @@
 
 new_word = [i for i in range(0,11) (f"{i} , {i*i}")]
 print(new_word)
+
+
+result = [
+    tuple(i ** j if j != 5 else i ** 3 for j in range(7))
+    if i != 0 else (0, 1, 0, 0, 0, 0, 0)
+    for i in range(11)
+]
+
 # countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
 # output:
 # [['FINLAND','FIN', 'HELSINKI'], ['SWEDEN', 'SWE', 'STOCKHOLM'], ['NORWAY', 'NOR', 'OSLO']]
