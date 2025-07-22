@@ -25,6 +25,8 @@
 # (10, 1, 10, 100, 1000, 10000, 100000)]
 # Flatten the following list to a new list:
 
+new_word = [i for i in range(0,11) (f"{i} , {i*i}")]
+print(new_word)
 # countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
 # output:
 # [['FINLAND','FIN', 'HELSINKI'], ['SWEDEN', 'SWE', 'STOCKHOLM'], ['NORWAY', 'NOR', 'OSLO']]
